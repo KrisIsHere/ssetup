@@ -2,16 +2,20 @@
 #made for my school, they want me to setup debian on the pcs and shit
 #coded by KrisIsHere
 #DO NOT STEAL WITHOUT CREDIT
+
 import sys
 import os
+import time
+
+build = "1.2"
 
 if os.getuid():
-    print("Script By KrisIsHere")
+    print("Script By KrisIsHere | Built " + build)
     exit('\nroot access required\n')
 else:
     os.system("clear")
-    print("        Script By KrisIsHere")
-    xd = input("Script starting press 'y' to continue: ")
+    print("Script By KrisIsHere | Built " + build + "\n")
+    xd = input("Script Starting Press 'y' To Continue: ")
     if xd == "y":
         os.system("rm -rf /etc/apt/sources.list")
         os.system("cp -r sources.list /etc/apt/")
@@ -21,5 +25,24 @@ else:
         print("\nSetup finished!")
         sys.exit()
     else:
-        print("\nStoping script\n")
+        os.system("clear")
+        print("\nStopping Script.\n")
+        time.sleep(1)
+        os.system("clear")
+        print("\nStopping Script..\n")
+        time.sleep(1)
+        os.system("clear")
+        print("\nStopping Script...\n")
+        time.sleep(1)
+        os.system("clear")
+        print("\nStopping Script.\n")
+        time.sleep(1)
+        os.system("clear")
+        print("\nStopping Script..\n")
+        time.sleep(1)
+        os.system("clear")
+        print("\nStopping Script...\n")
+        time.sleep(1)
+        os.system("clear")
+        print("\nScript Stopped\n")
         sys.exit()
