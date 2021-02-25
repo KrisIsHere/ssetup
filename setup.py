@@ -1,5 +1,5 @@
-#setup script for debian 10 buster (works on pretty much every distro if it debian/ubuntu you get the point base)
-#made for my school, they want me to setup debian on the pcs and shit
+#setup script for debian 10 buster (works on pretty much every distro if its a debian/ubuntu you get the point base)
+#made for my school, they want me to setup debian on the pcs and shit but im too lazy to do it manually
 #coded by KrisIsHere
 #DO NOT STEAL WITHOUT CREDIT
 
