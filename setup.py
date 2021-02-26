@@ -5,17 +5,14 @@
 
 import sys
 import os
-import time
 
-build = "1.2"
+build = "1.3"
 
 if os.getuid():
-    print("Script By KrisIsHere | Built " + build)
-    exit('\nroot access required\n')
+    exit("Script By KrisIsHere | Built " + build + "\n\nroot access required\n")
 else:
     os.system("clear")
-    print("Script By KrisIsHere | Built " + build + "\n")
-    xd = input("Script Starting Press 'y' To Continue: ")
+    xd = input("Script By KrisIsHere | Built " + build + "\n\nScript Starting Press 'y' To Continue: ")
     if xd == "y":
         os.system("rm -rf /etc/apt/sources.list")
         os.system("cp -r sources.list /etc/apt/")
