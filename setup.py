@@ -5,7 +5,6 @@
 
 import sys
 import os
-import time
 
 build = "1.3"
 
@@ -24,5 +23,4 @@ else:
         sys.exit()
     else:
         print("\nScript Stopped\n")
-        time.sleep(2)
         sys.exit()
