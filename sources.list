@@ -1,6 +1,7 @@
 # See https://wiki.debian.org/SourcesList for more information.
 # setup.py is made by KrisIsHere do not steal without credit
 # if you seeing this and the tool dont got my name in it its a rip off
+
 deb http://deb.debian.org/debian buster main contrib non-free
 deb-src http://deb.debian.org/debian buster main contrib non-free
 
