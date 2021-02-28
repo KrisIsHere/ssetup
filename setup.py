@@ -6,7 +6,7 @@
 import sys
 import os
 
-build = "1.4"
+build = "2.1"
 
 if os.getuid():
     exit("Script By KrisIsHere | Built " + build + "\n\nroot access required\n")
@@ -14,7 +14,7 @@ else:
     os.system("clear")
     xd = input("Script By KrisIsHere | Built " + build + "\n\nScript Starting Press 'y' To Continue: ")
     if xd == "y":
-        os.system("rm -rf /etc/apt/sources.list ; cp -r sources.list /etc/apt/ ; apt update ; apt upgrade ; apt install htop neofetch")
+        os.system("rm -rf /etc/apt/sources.list ; cp -r sources.list /etc/apt/ ; apt update ; apt upgrade ; apt install htop neofetch ; gsettings set org.gnome.desktop.wm.preferences button-layout ':minimize,maximize,close'")
         print("\nSetup finished!")
         sys.exit()
     else:
