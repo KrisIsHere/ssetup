@@ -6,7 +6,7 @@
 import sys
 import os
 
-build = "1.3"
+build = "1.4"
 
 if os.getuid():
     exit("Script By KrisIsHere | Built " + build + "\n\nroot access required\n")
