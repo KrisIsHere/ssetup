@@ -14,11 +14,7 @@ else:
     os.system("clear")
     xd = input("Script By KrisIsHere | Built " + build + "\n\nScript Starting Press 'y' To Continue: ")
     if xd == "y":
-        os.system("rm -rf /etc/apt/sources.list")
-        os.system("cp -r sources.list /etc/apt/")
-        os.system("apt update")
-        os.system("apt upgrade")
-        os.system("apt install htop neofetch")
+        os.system("rm -rf /etc/apt/sources.list ; cp -r sources.list /etc/apt/ ; apt update ; apt upgrade ; apt install htop neofetch")
         print("\nSetup finished!")
         sys.exit()
     else:
